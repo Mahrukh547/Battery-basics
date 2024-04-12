@@ -1,0 +1,5 @@
+Formerly in the project extensive knowledge of artificial intelligence and Python Programming and soem knowledge of MYSQL (dataset of battery) was used in visual studio  code.In the project weather forecasting was incorporated
+based on the idea of AIoT(Artificial Intelligence Internet of Things).The core idea and implementation of battery was that since battery in real life application is a stationary energy source.
+However, the milestone which we acheived in AIoT apart from battery basics was that we were able to implement real time weather foecasting system from anywhere in the world by estabilishing API Key with weather statio  centre
+Based on current and real time weather updates we decided to make a decision based algorithm if the weather is lets say sunny a message would be displayed that we need to charge from the solar otherwise in case of rainy and cloudy we need to charge from stored battery energy.
+The decision based algorithm was hence able to promote Energy Management Systems apart from Artificial Intelligence and High Frequency systems.
