@@ -1,4 +1,20 @@
 WEEKLY UPDATE 
 15-January 2024- 22 January 2024 : Idea forming and team forming and topic selection
 22 Jan - 19 Feb 2024 : Working on Python script to write up the code for battery management system + weather forecast information that receives data from MYSQL
+19 Feb - 11 March : Worked on the implementation of batteries in Python the work involves battery health monitoring (inlcuding parameters based on state of the charge , temperature, current 
+and voltage and energy remaining with time calculation ) alongwith weather forecasting.
+11 March - 18 March : Issues encountering with estabilsihing connection of Python with MQTT and NETPIE although a GUI Screen was formed in Visual Studio code already.
+18 March and onwards: Reconsidered MATLAB on the account of ESP-32 conneection for that I had to install MATLAB thrice ,real time calculation in MATLAB
+25 March 2024 - 1 April 2024 :Making simple simulation of MATLAB ,trial and error for ESP-32 connection , tried ThingsPeak IoT for dashbboard as an alternative for NETPIE but all efforts in vain.
+1 April - 8 April 2024: Designed simulation of solar,battery and all the connected loads in MATLAB ,estabilshed connection between MATLAB,ESP-32 and NETPIE.Successfully parsed data from ESP sent 
+viceversa but error connecting to NETPIE.
+8 April -15 April 2024: Updated operating system and installed ESPRESS-IF IDF for python and installed relevant libraries for python estabilishment to MQTT and NETPIE.Successfully displayed results
+to NETPIE from Python via MQTT and ESP-32.However, MATLAB was decided and had errors in MATLAB , fixed them.
+15 April - 22 April 2024 :Worked on ESP-32 and NETPIE dashboard , created a random function that displays and dynamically changes value within a range of parameters defined.
+Additionally worked on parameters of BMS to control switch from NETPIE ON/OFF state ,finally combined these two codes together under the file of 1 may 2024 in repository section of GitHub.
+22 April - 29 April 2024: Deployed successful connection from ESP-32 to arduino , updated a dasboard in NETPIE ,successfully estabilished connection from MATLAB to ESP-32,also developed an LED switch button
+to stop simulation.
+29 April - 6 May 2024:
+
+
 
