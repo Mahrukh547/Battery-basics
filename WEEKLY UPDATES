@@ -15,7 +15,10 @@ to NETPIE from Python via MQTT and ESP-32.However, MATLAB was decided and had er
 Additionally worked on parameters of BMS to control switch from NETPIE ON/OFF state ,finally combined these two codes together under the file of 1 may 2024 in repository section of GitHub.
 22 April - 29 April 2024: Deployed successful connection from ESP-32 to arduino , updated a dasboard in NETPIE ,successfully estabilished connection from MATLAB to ESP-32,also developed an LED switch button
 to stop simulation.
-29 April - 6 May 2024:
+29 April - 6 May 2024:Write up of a code that retrieves data from MATLAB , brings it to esp and displays results to NETPIE.Additionally worked on a feature that 
+calculates energy remaining in a trailer with time left.
+6 May -12 May 2024: Working on final report(github) and presentation 
+
 
 
 
