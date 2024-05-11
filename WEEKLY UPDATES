@@ -7,7 +7,8 @@ and voltage and energy remaining with time calculation ) alongwith weather forec
 18 March and onwards: Reconsidered MATLAB on the account of ESP-32 conneection for that I had to install MATLAB thrice ,real time calculation in MATLAB
 25 March 2024 - 1 April 2024 :Making simple simulation of MATLAB ,trial and error for ESP-32 connection , tried ThingsPeak IoT for dashbboard as an alternative for NETPIE but all efforts in vain.
 1 April - 8 April 2024: Designed simulation of solar,battery and all the connected loads in MATLAB ,estabilshed connection between MATLAB,ESP-32 and NETPIE.Successfully parsed data from ESP sent 
-viceversa but error connecting to NETPIE.
+viceversa but error connecting to NETPIE.Had reconsidered the idea of incorporating sensors based on the idea of sending data from microcontroller to MATLAB but turned down 
+after discussing it with Professor Chayakorn.The idea of incorporating sensors came after reading datasheet of ESP.
 8 April -15 April 2024: Updated operating system and installed ESPRESS-IF IDF for python and installed relevant libraries for python estabilishment to MQTT and NETPIE.Successfully displayed results
 to NETPIE from Python via MQTT and ESP-32.However, MATLAB was decided and had errors in MATLAB , fixed them.
 15 April - 22 April 2024 :Worked on ESP-32 and NETPIE dashboard , created a random function that displays and dynamically changes value within a range of parameters defined.
