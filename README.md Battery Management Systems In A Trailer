@@ -6,7 +6,8 @@ Overview and Main Features :
 The idea of the project is to design a battery management system for a trailer in terms of cost and energy efficiency to ensure sustainability for the tourist and passengers using the trailer.
 The load comprises of some basics like cooking ,Mobile /Laptop Charging and lights .The solar light provides energy to charge the batteries installed inside the trailer .The main features and 
 parameters to supply sufficient energy are Voltage ,Current , Irradiance from Solar cell and MPPT then SOC ,temperature ,Voltage ,Current from batteries and the load power based on the electrical formula of  
-                                                                                       P=V*I where , V is voltage and I is current.
+P=V*I where , V is voltage and I is current.
+
 Implementation:
 The main components and implementation was basically simulation from MATLAB which then involves intelligent communication using MQTTBox , ESP-32 Node MCU and finally a user-interface dashboard at NETPIE.
 In MQTTBox we made two clients one is ESP the other is MATLAB getting subscribe and publish from topic @msg/solar/battery/load/LEDStatus which is also defined in Arduino IDE. The main  information
