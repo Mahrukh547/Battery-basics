@@ -17,8 +17,10 @@ In MQTTBox we made two clients one is ESP the other is MATLAB getting subscribe 
 displayed on NETPIE dashboard are energy remaining for ‘X’ hours in a trailer. Other parameters displayed on the trailer are Solar Voltage, current and Irradiance from Solar then SOC ,temperature ,Voltage ,
 Current from batteries and the load power .One additional feature is is BMS protection we can switch ON/OFF the simulation from NETPIE & from MATLAB as well.All the source codes and files for this project
 implementation can be found in the Github repository most important files are MATLAB Simulation By Lara, Updated version of the Simulation ,Code for time calculation,ESP-32 TO NETPIE(Random).ino
-MATLAB.ino and MATLAB to uc.m and MATLAB to uc.slx.For the weekly updates and details how it was implemented
-and what were the steps taken please see below.
+MATLAB.ino and MATLAB to uc.m and MATLAB to uc.slx.For the weekly updates and details how it was implemented and what were the steps taken please see below.
+
+
+DEMO : https://drive.google.com/file/d/1ic-K17F95DgjQJM3L6M5JMCOEbiP4Otc/view?usp=sharing
 
 
 WEEKLY UPDATES
