@@ -1,14 +1,17 @@
 BATTERY  MANAGEMENT  SYSTEMS IN A TRAILER
 
-Team Members :Mahrukh Zaman & Lara Woehr
 
-Overview and Main Features :
+TEAM MEMBERS:Mahrukh Zaman & Lara Woehr
+
+
+OVERVIEW & MAIN FEATURES :
 The idea of the project is to design a battery management system for a trailer in terms of cost and energy efficiency to ensure sustainability for the tourist and passengers using the trailer.
 The load comprises of some basics like cooking ,Mobile /Laptop Charging and lights .The solar light provides energy to charge the batteries installed inside the trailer .The main features and 
 parameters to supply sufficient energy are Voltage ,Current , Irradiance from Solar cell and MPPT then SOC ,temperature ,Voltage ,Current from batteries and the load power based on the electrical formula of  
 P=V*I where , V is voltage and I is current.
 
-Implementation:
+
+IMPLEMENTATION:
 The main components and implementation was basically simulation from MATLAB which then involves intelligent communication using MQTTBox , ESP-32 Node MCU and finally a user-interface dashboard at NETPIE.
 In MQTTBox we made two clients one is ESP the other is MATLAB getting subscribe and publish from topic @msg/solar/battery/load/LEDStatus which is also defined in Arduino IDE. The main  information
 displayed on NETPIE dashboard are energy remaining for ‘X’ hours in a trailer. Other parameters displayed on the trailer are Solar Voltage, current and Irradiance from Solar then SOC ,temperature ,Voltage ,
@@ -18,7 +21,7 @@ MATLAB.ino and MATLAB to uc.m and MATLAB to uc.slx.For the weekly updates and de
 and what were the steps taken please see below.
 
 
-WEEKLY UPDATE 
+WEEKLY UPDATES
 15-January 2024- 22 January 2024 : Idea forming and team forming and topic selection
 22 Jan - 19 Feb 2024 : Working on Python script to write up the code for battery management system + weather forecast information that receives data from MYSQL
 19 Feb - 11 March : Worked on the implementation of batteries in Python the work involves battery health monitoring (inlcuding parameters based on state of the charge , temperature, current 
